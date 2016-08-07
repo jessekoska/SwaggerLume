@@ -1,12 +1,20 @@
 {
-  "name": "darkaonline/swagger-lume",
+  "name": "jessekoska/swagger-lume",
   "description": "Swagger integration to Lumen 5",
   "keywords": ["lumen", "laravel", "swagger"],
   "license": "MIT",
   "authors": [
     {
+      "name": "Jesse Koska",
+      "email": "jessekoska@gmail.com"
+    },
+    {
       "name": "Darius Matulionis",
       "email": "darius@matulionis.lt"
+    },
+    {
+      "name": "Martin Abelson Sahlen",
+      "email": "sahlen@stud.ntnu.no"
     }
   ],
   "require": {    
@@ -32,5 +40,5 @@
     ]
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
 }

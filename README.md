@@ -11,6 +11,8 @@ Swagger 2.0 for Lumen 5
 
 This package is a wrapper of [Swagger-php](https://github.com/zircote/swagger-php) and [swagger-ui](https://github.com/swagger-api/swagger-ui) adapted to work with Lumen 5.
 
+Martin Abelson Sahlen version of swagger-ui implemented.
+
 Installation
 ============
 
@@ -39,15 +41,15 @@ add this line in `Register Service Providers` section:
 
 - Run `php artisan swagger-lume:publish-config` to publish configs (`config/swagger-lume.php`)
 - Make configuration changes if needed 
-- Run `swagger-lume:publish` to publish everything
+- Run `php artisan swagger-lume:publish` to publish everything
 
 Configuration
 ============
-- Run `swagger-lume:publish-config` to publish configs (`config/swagger-lume.php`)
-- Run `swagger-lume:publish-assets` to publish swagger-ui to your public folder (`public/vendor/swagger-lume`)
-- Run `swagger-lume:publish-views` to publish views (`resources/views/vendor/swagger-lume`)
-- Run `swagger-lume:publish` to publish everything
-- Run `swagger-lume:generate` to generate docs
+- Run `php artisan swagger-lume:publish-config` to publish configs (`config/swagger-lume.php`)
+- Run `php artisan swagger-lume:publish-assets` to publish swagger-ui to your public folder (`public/vendor/swagger-lume`)
+- Run `php artisan swagger-lume:publish-views` to publish views (`resources/views/vendor/swagger-lume`)
+- Run `php artisan swagger-lume:publish` to publish everything
+- Run `php artisan swagger-lume:generate` to generate docs
 
 
 Swagger-php
